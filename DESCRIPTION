@@ -1,0 +1,18 @@
+Package: Em
+Type: Package
+Title: Algorithme EM ("Espérance-Maximisation")
+Version: 1.0
+Date: 2019-12-01
+Author: Touzani Sara
+Maintainer: Who to complain to <touzanis.sara@gmail.com>
+Description:The package implements the algorithm EM which allows 
+us to do a clustering on categorial multunomial futures as long as guaussien futures 
+Depends:
+    R (>= 3.1.0)
+Imports:
+ psych
+ qlcMatrix
+ FactoMineR
+ MASS
+ klaR
+ ggplot2
